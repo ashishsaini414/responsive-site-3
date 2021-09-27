@@ -1,0 +1,37 @@
+.banner{
+    flex-wrap: wrap;
+}
+.nav-content{
+    display: none;
+}
+.footer-container .box-1 {
+    text-align: center;
+    padding:1rem;
+}
+.footer-container .box-1 p{
+    font-size: 1.4rem;
+    color: white;
+    width: 10rem;
+}
+#person-1-description{
+    width: 12rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+#person-2-description{
+    width: 12rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.box-2{
+    padding:2rem;
+}
+.box-3{
+    padding:2rem;
+}
+
+

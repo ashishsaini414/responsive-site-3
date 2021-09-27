@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="mobile.css">
+    <link rel="stylesheet" media="only screen and (min-width: 500px) and (max-width:1300px)" href="tablet.css">
+
+    
+</head>
+<body>
+    <nav>
+        <div class="container-1">
+            <div class="logo">
+                <img src="pics/logo.png" alt="">
+            </div>
+            <div class="nav-content">
+                <span id="sign-in">Sign In </span>
+                <span style="color: rgb(92, 88, 88);">|</span>
+                <span id="sign-out">Sign Up</span>
+               <div><img src="pics/right-logo.png" alt=""></div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="banner-content">
+            <p>Take the Kidoscope phisocmetic assessment & spot the early signs</p>
+            <a href="#">Take a quick free test</a>
+        </div>
+            <form action="#">
+                <div class="form-header">
+                    <span class="para-1">Interested? Connect with us!</span>
+                    <span class="para-2">Guaranteed response within 12 hours</span>
+                </div>
+                <input class="form-name myform" type="text" placeholder="Name">
+                <input class="form-email myform" type="email" placeholder="Email">
+                <input class="form-phone myform"type="tel" placeholder="Phone">
+                <input class="form-submit"type="submit" value="Submit">
+            </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="box-1">
+                <img src="pics/icon.png" alt="">
+                <p>What our happy customers are saying</p>
+            </div>
+            <div class="box-2">
+                <span ><p id="person-1-description">I always used to think that there were only limited career options that we've heard of. Kindoscope helped me understand that there are numerous new age professions to choose from.</p></span>
+                <span><img id="person-1-image" src="pics/icon1.jpg" alt=""></span>
+                <span id="person-1-name"> - ADITI RAO</span>
+            </div>
+            <div class="box-3">
+                <span ><p id="person-2-description">I used to think my child would become an expert in the field I am working in. But this helped me widen my perspective and accept various other career opportunities.</p></span>
+                <span ><img id="person-2-image" src="pics/icon2.jpg" alt=""></span>
+                <span id="person-2-name"> - SUMIT MEHTA</span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.sidebarIcon').addEventListener('click', () => {
+            console.log("jeelo")
+
+        });
+    </script>
+</body>
+</html>

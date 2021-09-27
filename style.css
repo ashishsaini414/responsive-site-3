@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(233, 218, 83);
+    padding: 0 5vw;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-content span{
+    padding: 0.3rem 0.8rem;
+}
+.nav-content div{
+    padding-left: 2rem;
+}
+.banner{
+    background: url(pics/background-image.png), linear-gradient(#b1f3f0, #87b8cc);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    /* height: 30rem; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-content{
+    /* height: max-content; */
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    /* margin: 7rem;
+    
+    padding: 1rem;
+    padding: 1rem;*/
+    margin: 5rem 0; 
+}
+.banner-content > p{
+    /* padding-bottom: 1em; */
+    width: 17rem;
+    padding:1rem;
+    padding-left: 0rem;
+    font-size: 1.5rem;
+    color: rgb(59, 122, 109);
+    /* font-size: 1.8em; */
+}
+.banner-content a {
+    color: white;
+    background-color: rgb(218, 76, 123);
+    text-transform: uppercase;
+    padding: 0.7rem;
+    text-decoration: none;
+    width: max-content;
+    text-decoration: none;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    /* margin: 7rem; */
+    text-align: center;
+    justify-content: space-evenly;
+    /* width: 24rem; */
+    margin: 5rem 0;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.form-header span{
+    display: block;
+}
+.para-1{
+    font-size: 1.3rem;
+    color: grey;
+}
+.para-2{
+    color: red;
+    font-size: 0.8rem;
+}
+.myform{
+    border: 0;
+    padding-top: 0.8rem;
+    border-bottom: 1px solid grey;
+}
+.form-phone{
+    margin-bottom: 0.8rem;
+}
+.form-submit{
+    background-color: green;
+    border: 0;
+    padding: 0.6rem;
+    margin: 0 2.5rem;
+    color: white;
+}
+footer{
+    background-color: rgb(38, 125, 207);
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 6rem;
+    flex-wrap: wrap;
+}
+.footer-container .box-1 {
+    padding-right: 5rem;
+}
+.footer-container .box-1 p{
+    font-size: 2rem;
+    color: white;
+    width: 20rem;
+}
+.box-2{
+    padding: 0rem 2rem;
+}
+.box-2 > span{
+    color: white;
+    width: 10rem;
+}
+#person-1-description{
+    width: 17rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+#person-1-image{
+    border-radius: 2rem;
+}
+#person-2-image{
+    border-radius: 2rem;
+}
+#person-2-description{
+    width: 17rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+.box-3 span{
+    color: white;
+}
+
